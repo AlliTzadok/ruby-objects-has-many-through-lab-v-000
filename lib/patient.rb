@@ -1,5 +1,7 @@
 class Patient
 
+  attr_accessor :name
+
   #appointments belong to Patient
   #has many appointments
   #has many doctors through its appointments
