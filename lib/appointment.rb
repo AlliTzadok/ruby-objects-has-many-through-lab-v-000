@@ -5,4 +5,7 @@ class Appointment
     @doctor = doctor
   end
 
+  def patient
+    appointment.patient = self
+
 end
