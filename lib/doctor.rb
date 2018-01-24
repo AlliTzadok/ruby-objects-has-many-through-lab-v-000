@@ -7,11 +7,11 @@ class Doctor
 
   def initialize(name)
     @name = name
-    @appointment = []
+    @appointments = []
   end
 
   def add_appointment(appointment)
-    @appointment << appointment
+    @appointments << appointment
     appointment.doctor = self
   end
 
