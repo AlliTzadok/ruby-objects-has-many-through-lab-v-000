@@ -9,4 +9,8 @@ class Appointment
     appointment.patient = self
   end
 
+  def doctor
+    appointment.doctor = self
+  end
+
 end
