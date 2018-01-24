@@ -3,7 +3,7 @@
 #have many patients through appointments
 
 class Doctor
-  attr_accessor :name, :doctor, :patient
+  attr_accessor :name
 
   def initialize(name)
     @name = name
